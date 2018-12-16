@@ -15,7 +15,6 @@ bin/neuralmonkey-train tests/classifier.ini
 bin/neuralmonkey-train tests/labeler.ini
 bin/neuralmonkey-train tests/regressor.ini
 bin/neuralmonkey-train tests/language-model.ini
-bin/neuralmonkey-train tests/audio-classifier.ini
 bin/neuralmonkey-train tests/ctc.ini
 bin/neuralmonkey-train tests/beamsearch.ini
 bin/neuralmonkey-train tests/self-critical.ini
@@ -25,6 +24,7 @@ bin/neuralmonkey-train tests/str.ini
 bin/neuralmonkey-train tests/flat-multiattention.ini
 bin/neuralmonkey-train tests/hier-multiattention.ini
 bin/neuralmonkey-train tests/small_sent_cnn.ini
+bin/neuralmonkey-train tests/audio-classifier.ini
 
 # Testing environment variable substitution in config file
 NM_EXPERIMENT_NAME=small bin/neuralmonkey-train tests/small.ini
